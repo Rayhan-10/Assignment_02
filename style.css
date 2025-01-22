@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.quicksand-font{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* Shared styles */
+.display-flex{
+  display: flex;
+}
+.primary-btn{
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #111111;
+  padding: 10px 45px;
+  border: none;
+  border-radius: 12px;
+}
+.header, main{
+  margin: 0 140px;
+}
+section{
+  margin-top: 60px;
+}
+/* header styles */
+
+.navbar{
+  align-items: center;
+  justify-content: space-between;
+}
+.school{
+  gap: 15px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #111111;
+}
+.nav-buttons ul {
+  list-style: none;
+  gap: 32px;
+}
+.nav-buttons a {
+  text-decoration: none;
+}
+.home{
+  color: #FEA301;
+}
+.about{
+  color: #01ACFD;
+}
+.faculty{
+  color: #05D4DF;
+}
+.admission{
+  color: #5D58EF;
+}
+.Nav-btn{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  background-color: #FEA301;
+  padding: 10px 60px;
+  border: none;
+  border-radius: 12px;
+}
+
+/* banner style */
+.Banner-section{
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-content{
+  max-width: 640px;
+}
+.banner-title{
+  font-size: 3.6rem;
+  font-weight: bold;
+}
+#empower{
+  color: #FEA301;
+}
+#mid-title{
+  color: #111111;
+}
+#vision{
+  color: #01ACFD;
+}
+.banner-descrption{
+  font-size: 1.25rem;
+  color: #000000;
+}
+.banner-img{
+  width: 460px;
+}
+
+/* media query */
+@media screen and (max-width:576px) {
+  .Banner-section{
+    flex-direction: column-reverse;
+    text-align: center;
+    margin: 0px 20px;
+  }
+  .banner-img img{
+    width: 80%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
