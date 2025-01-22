@@ -147,8 +147,18 @@ section{
   color: #8700FF;
 }
 /* arrow button styles */
+.arrow-btn{
+  text-align: center;
+}
+#btn{
+  background-color: #FEA301;
+  color: white;
+  font-size: 1.7rem;
+  border: none;
+    width: 60px;
+  border-radius: 100px;
 
-
+}
 /* stories styles */
 .stories{
   background-image: url(assets/bg.png);
@@ -212,6 +222,48 @@ section{
   font-weight: bold;
   color: #000000;
 }
+.view-btn{
+  margin-top: 80px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+/* footer style */
+.footer{
+  background-color: #01ACFD;
+  width: 100%;
+}
+.footer-content{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  margin-left: 130px;
+  gap: 40px;
+}
+#title{
+  font-size: 2.7rem;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.description{
+  font-size: 1.25rem;
+  color: #FFFFFF;
+}
+.about > ul >li{
+  font-size: 1.25rem;
+  color: #FFFFFF;
+  list-style: none;
+}
+.about-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.links-title{
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #FFFFFF;
+}
 /* media query */
 @media screen and (max-width:576px) {
   .header, main,body{
@@ -240,5 +292,11 @@ section{
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
     width: 100%;
+  }
+  .footer-content{
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 30px;
+    gap: 20px;
+
   }
 }
